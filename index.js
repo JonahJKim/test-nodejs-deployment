@@ -10,6 +10,6 @@ app.get('/', (req, res) => {
     })
 })
 
-app.listen(3001, () => {
-    console.log("Server is up on port 3001");
+app.listen(8080, () => {
+    console.log("Server is up on port 8080");
 })
